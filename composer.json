@@ -1,0 +1,39 @@
+{
+    "name": "diegodevgroup/mission-control",
+    "description": "The PHP agnostic package for Mission Control (Diegodevgroup Inc)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Lantz",
+            "email": "matt@diegodevgroup.ca"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "mashape/unirest-php": "^3.0",
+        "kassner/log-parser": "^1.4",
+        "nesbot/carbon": "^1.25",
+        "tightenco/collect": "^5.6"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^7.0",
+        "mikey179/vfsStream": "^1.6"
+    },
+    "bin": [
+        "bin/performance",
+        "bin/traffic"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Diegodevgroup\\MissionControl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "minimum-stability": "stable"
+}
