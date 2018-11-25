@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Diegodevgroup\MissionControl\Analyzers\PerformanceAnalyzer;
+use DiegoDevGroup\MissionControl\Analyzers\PerformanceAnalyzer;
 use Tests\TestCase;
 
 class PerformanceAnalyzerTest extends TestCase

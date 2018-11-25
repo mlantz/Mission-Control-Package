@@ -1,6 +1,6 @@
 <?php
 
-namespace Diegodevgroup\MissionControl;
+namespace DiegoDevGroup\MissionControl;
 
 use Unirest\Request;
 

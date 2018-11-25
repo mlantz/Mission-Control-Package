@@ -1,11 +1,11 @@
 <?php
 
-namespace Diegodevgroup\MissionControl;
+namespace DiegoDevGroup\MissionControl;
 
 use Exception;
-use Diegodevgroup\MissionControl\Analyzers\PerformanceAnalyzer;
-use Diegodevgroup\MissionControl\BaseService;
-use Diegodevgroup\MissionControl\IssueService;
+use DiegoDevGroup\MissionControl\Analyzers\PerformanceAnalyzer;
+use DiegoDevGroup\MissionControl\BaseService;
+use DiegoDevGroup\MissionControl\IssueService;
 
 class PerformanceService extends BaseService
 {

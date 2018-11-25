@@ -1,11 +1,11 @@
 <?php
 
-namespace Diegodevgroup\MissionControl;
+namespace DiegoDevGroup\MissionControl;
 
 use Exception;
-use Diegodevgroup\MissionControl\Analyzers\TrafficAnalyzer;
-use Diegodevgroup\MissionControl\BaseService;
-use Diegodevgroup\MissionControl\IssueService;
+use DiegoDevGroup\MissionControl\Analyzers\TrafficAnalyzer;
+use DiegoDevGroup\MissionControl\BaseService;
+use DiegoDevGroup\MissionControl\IssueService;
 
 class TrafficService extends BaseService
 {

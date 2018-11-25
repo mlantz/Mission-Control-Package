@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Diegodevgroup\MissionControl\IssueService;
+use DiegoDevGroup\MissionControl\IssueService;
 use Tests\TestCase;
 
 class IssueServiceTest extends TestCase

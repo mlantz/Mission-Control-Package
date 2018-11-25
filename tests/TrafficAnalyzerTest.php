@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Diegodevgroup\MissionControl\Analyzers\TrafficAnalyzer;
+use DiegoDevGroup\MissionControl\Analyzers\TrafficAnalyzer;
 use Tests\TestCase;
 
 class TrafficAnalyzerTest extends TestCase

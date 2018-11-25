@@ -1,6 +1,6 @@
 <?php
 
-namespace Diegodevgroup\MissionControl\Analyzers;
+namespace DiegoDevGroup\MissionControl\Analyzers;
 
 use Exception;
 

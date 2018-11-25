@@ -1,9 +1,9 @@
 <?php
 
-namespace Diegodevgroup\MissionControl;
+namespace DiegoDevGroup\MissionControl;
 
 use Exception;
-use Diegodevgroup\MissionControl\BaseService;
+use DiegoDevGroup\MissionControl\BaseService;
 
 class IssueService extends BaseService
 {

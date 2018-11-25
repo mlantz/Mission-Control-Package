@@ -1,11 +1,11 @@
 {
     "name": "diegodevgroup/mission-control",
-    "description": "The PHP agnostic package for Mission Control (Diegodevgroup Inc)",
+    "description": "The PHP agnostic package for Mission Control (DiegoDevGroup Inc)",
     "license": "MIT",
     "authors": [
         {
             "name": "Matt Lantz",
-            "email": "matt@diegodevgroup.ca"
+            "email": "packages@diegodevgroup.com"
         }
     ],
     "require": {
@@ -27,7 +27,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Diegodevgroup\\MissionControl\\": "src/"
+            "DiegoDevGroup\\MissionControl\\": "src/"
         }
     },
     "autoload-dev": {

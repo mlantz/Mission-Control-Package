@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Diegodevgroup\MissionControl\WebhookService;
+use DiegoDevGroup\MissionControl\WebhookService;
 use Tests\TestCase;
 
 class WebhookServiceTest extends TestCase

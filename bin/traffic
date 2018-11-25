@@ -20,7 +20,7 @@ if (!file_exists($argv[2])) {
 $token = $argv[1];
 $format = null;
 
-$traffic = new \Diegodevgroup\MissionControl\TrafficService($token);
+$traffic = new \DiegoDevGroup\MissionControl\TrafficService($token);
 
 // Check if this has a custom format (apache)
 if (isset($argv[3])) {

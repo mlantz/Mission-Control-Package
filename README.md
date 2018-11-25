@@ -1,10 +1,10 @@
 # Mission Control PHP Package
 
-[![Build Status](https://travis-ci.org/DiegodevgroupInc/Mission-Control-Package.svg?branch=master)](https://travis-ci.org/DiegodevgroupInc/Mission-Control-Package)
+[![Build Status](https://travis-ci.org/DiegoDevGroupInc/Mission-Control-Package.svg?branch=master)](https://travis-ci.org/DiegoDevGroupInc/Mission-Control-Package)
 [![Packagist](https://img.shields.io/packagist/dt/diegodevgroup/mission-control.svg)](https://packagist.org/packages/diegodevgroup/mission-control)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/diegodevgroup/mission-control-package)
 
-**Mission Control PHP Package** - Send data to Diegodevgroup's Mission Control system to stay in control of your applications.
+**Mission Control PHP Package** - Send data to DiegoDevGroup's Mission Control system to stay in control of your applications.
 
 DiegoDev Group's Mission Control is an elegant Application Performance Management system. Forget being inundated with hundreds of charts and complex configurations for CMS websites, custom E-commerce platforms etc. Utilize the simple user interface, with specific data for high demand moments. Get notifications within minutes of your system being overloaded, or high levels of errors being triggered. Set it up in less than 5 minutes with your next deployment, and take back your weekends.
 
@@ -23,7 +23,7 @@ composer require diegodevgroup/mission-control
 IssueService lets you peak into your exceptions or any flagged messages you'd like to track. You can do so using the following methods:
 
 ```
-use Diegodevgroup\MissionControl\IssueService;
+use DiegoDevGroup\MissionControl\IssueService;
 
 try {
     // do some code
@@ -36,7 +36,7 @@ try {
 Or if you just want to flag an potential issue or concern in your applicaiton:
 
 ```
-use Diegodevgroup\MissionControl\IssueService;
+use DiegoDevGroup\MissionControl\IssueService;
 
 $issueService = new IssueService('{API Token}');
 $issueService->log('Anything you want to say goes here', 'flag');
@@ -51,7 +51,7 @@ Flags can be any terminology you want, to help sort through your issues.
 You can easily tie the webhooks into your application with this package using class and method:
 
 ```
-use Diegodevgroup\MissionControl\WebhookService;
+use DiegoDevGroup\MissionControl\WebhookService;
 
 (new WebhookService('{your-projects-webhook}'))->send('This is a title', 'This is a custom message', 'info');
 ```
